@@ -1,0 +1,164 @@
+.form-3d {
+    background: #fff;
+    border-radius: 15px;
+    box-shadow: 0 10px 15px rgba(0, 0, 0, 0.1), 0 4px 6px rgba(0, 0, 0, 0.08);
+    padding: 20px;
+}
+
+.upload-container {
+    width: 100%;
+    height: 250px;
+    border: 2px dashed #ddd;
+    border-radius: 10px;
+    position: relative;
+    cursor: pointer;
+    overflow: hidden;
+    background-color: #f9f9f9;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.upload-container img {
+    max-width: 100%;
+    max-height: 100%;
+    object-fit: cover;
+    display: block;
+}
+
+.upload-icon {
+    font-size: 3rem;
+    color: #888;
+    background: none;
+    border: none;
+    cursor: pointer;
+}
+
+.upload-container:hover .upload-icon {
+    color: #555;
+}
+
+.content-wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: center; 
+    padding: 20px;
+}
+
+.header-container {
+    width: 100%;
+    display: flex;
+    justify-content: flex-end; 
+    margin-bottom: 20px; 
+}
+
+.slider-management-container {
+    width: 100%;
+    max-width: 1200px; 
+}
+
+.add-new-slider-btn {
+    background-color: brown;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+.slider-management-table {
+    width: 100%;
+}
+
+.slider-management-table th, .slider-management-table td {
+    text-align: center;
+    vertical-align: middle;
+    padding: 10px; 
+}
+
+.slider-number {
+    margin-right: 15px;
+    font-weight: bold;
+    font-size: 18px;
+}
+
+.slider-management-table img {
+    width: 100px;
+    height: auto;
+    margin-left: 10px;
+}
+
+.action-icons {
+    font-size: 20px;
+    cursor: pointer;
+    margin: 0 5px;
+}
+
+.image-cell {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.image-container {
+    width: 100px;
+    height: 100px;
+    border: none;
+    padding: 5px;
+    box-sizing: border-box;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+    background-color: #f9f9f9;
+}
+
+.image-container img {
+    max-width: 100%;
+    max-height: 100%;
+    object-fit: cover;
+}
+
+.upload-area {
+    border: 1px dashed #000000;
+    border-radius: 5px;
+    height: 419px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    position: relative;
+}
+
+.upload-area img {
+    max-width: 100%;
+    max-height: 100%;
+    object-fit: contain;
+}
+
+.close-btn {
+    position: absolute;
+    background-color: transparent;
+    color: black;
+    transform: translate(-50%, -50%);
+    border: none;
+    height: 30px;
+    width: 30px;
+    border-radius: 50%;
+    font-size: 60px;
+    line-height: 1;
+    cursor: pointer;
+    display: none;
+   
+}
+
+.form-control {
+    margin-bottom: 15px;
+}
+
+
+.card {
+    box-shadow: 4px 4px 25px 0px #00000040;
+}
+

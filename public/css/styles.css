@@ -1,0 +1,343 @@
+
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css");
+
+
+
+/* for buttom */
+.btn-custom-secondary:hover {
+    background-color: #2C1708; 
+    color:  white;
+}
+
+
+    .form-container {
+        background-color: #ffffff;
+        border-radius: 8px;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1), 0 2px 4px rgba(0, 0, 0, 0.06);
+        transition: box-shadow 0.3s ease;
+        margin-bottom: 30px; /* Adjust the value as needed */
+    }
+    .form-container:hover {
+        box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2), 0 4px 8px rgba(0, 0, 0, 0.1);
+    }
+
+    .upload-container {
+        border: 2px dashed #ccc;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 100%;
+        cursor: pointer;
+    }
+    
+    .main-upload {
+        height: 285px;
+        width: 100%;
+    }
+    
+    .small-upload {
+        height: 90px;
+        width: 100%;
+    }
+    
+    .upload-icon {
+        font-size: 2rem;
+        color: brown;
+    }
+    
+    .upload-icon:hover {
+        color: #0056b3;
+    }
+    .card-3d-effect {
+        transition: transform 0.3s, box-shadow 0.3s;
+        box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1), 0 1px 3px rgba(0, 0, 0, 0.08);
+    }
+    
+    .card-3d-effect:hover {
+        transform: translateY(-10px);
+        box-shadow: 0 12px 24px rgba(0, 0, 0, 0.2), 0 4px 6px rgba(0, 0, 0, 0.1);
+    }
+    
+    .card.card-custom-size {
+        width: 356px !important; /* Use !important to override other styles */
+        height: 124px !important;
+        overflow: hidden;
+    }
+    
+    .card.card-custom-size .card-body {
+        padding: 10px;
+        overflow: hidden;
+    }
+    
+    .card.card-custom-size img {
+        width: 100%;
+        height: auto;
+    }
+
+    .image-box {
+        width: 84px;
+        height: 84px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        overflow: hidden;
+        border-radius: 5px;
+        background-color: white; /* Optional: background color for visibility */
+    }
+    
+    .image-box img {
+        max-width: 100%;
+        max-height: 100%;
+        object-fit: cover; /* Ensures the image covers the box while maintaining aspect ratio */
+    }
+
+
+    .upload-container {
+        position: relative;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        border: 2px dashed #ccc;
+        border-radius: 8px;
+        padding: 20px;
+        cursor: pointer;
+    }
+    
+    .upload-container input[type="file"] {
+        position: absolute;
+        width: 100%;
+        height: 100%;
+        opacity: 0; /* Hide the default file input */
+        cursor: pointer;
+    }
+    
+    .upload-icon {
+        font-size: 24px;
+        color: black;
+        position: absolute;
+        border-radius: 100%; /* Makes the background circular */
+        padding: 5px; /* Adjust padding to size the circle */
+    }
+    
+    
+    .upload-icon:hover {
+        color: #0056b3;
+    }
+    
+    .upload-container img {
+        width: 200px;
+        height: 200px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        overflow: hidden;/* Hide the image preview by default */
+    }
+
+    .upload-container2 {
+        position: relative;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        border: 2px dashed #ccc;
+        border-radius: 8px;
+        padding: 20px;
+        cursor: pointer;
+    }
+    
+    .upload-container2 input[type="file"] {
+        position: absolute;
+        width: 100%;
+        height: 100%;
+        opacity: 0; /* Hide the default file input */
+        cursor: pointer;
+    }
+    .upload-container2 img {
+        width: 75px;
+        height: 75px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        overflow: hidden;/* Hide the image preview by default */
+    }
+    
+    
+    .upload-container img.show {
+        display: block; /* Show the image preview */
+    }
+    
+    .preview-image {
+        display: block; /* Ensure the preview images are visible */
+    }
+    
+    /* Add this to your app.css or custom CSS file */
+.custom-alert {
+    border: 2px solid #dc3545; /* Customize border color */
+    background-color: #f8d7da; /* Customize background color */
+    color: #721c24; /* Customize text color */
+    font-size: 1rem; /* Customize font size */
+}
+
+.custom-alert .btn-close {
+    filter: brightness(0) invert(1); /* Adjust close button color if needed */
+}
+
+.dashed-border-container {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        border: 2px dashed #ccc;
+        border-radius: 8px;
+        padding: 20px;
+        cursor: pointer;
+}
+
+ .image-wrapper {
+        width: 100%;
+        height: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        overflow: hidden;
+    }
+
+    .image-wrapper img {
+        width: 200px;
+        height: 200px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        overflow: hidden;
+    }
+
+    .image-wrapper2 img {
+        width: 75px;
+        height: 75px;
+        object-fit: cover; /* Fill the container while maintaining aspect ratio */
+    }
+
+/* General styles for the delete icon */
+.delete-icon {
+    position: absolute;
+    cursor: pointer;
+    background-color: rgba(255, 0, 0, 0.7); /* Background color */
+    color: #fff; /* Text color */
+    border: none;
+    border-radius: 50%;
+    padding: 5px;
+    font-size: 10px;
+}
+
+/* Specific positioning for image-wrapper */
+.image-wrapper {
+    position: relative;
+}
+
+.image-wrapper .delete-icon {
+    top: 2px; /* Adjust top position */
+    right: 2px; /* Adjust right position */
+}
+
+/* Specific positioning for image-wrapper2 */
+.image-wrapper2 {
+    position: relative;
+}
+
+.image-wrapper2 .delete-icon {
+    top: -3px; /* Adjust top position */
+    right: -42px; /* Adjust right position */
+}
+
+.card-text {
+    margin: 0; /* Removes any default margin */
+    padding: 0; /* Removes any default padding */
+    line-height: 2.0; /* Optional: Adjusts line height if you want the text to be closer together */
+}
+.page-item .page-link {
+    border: none;
+    padding: 0.5rem 1rem;
+    color: black; /* Color for pagination numbers and arrows */
+    text-align: center; 
+}
+
+.page-item.active .page-link {
+    color: black; /* Color for the active page */
+    background-color: white;
+    border: 1px solid black;
+}
+
+.page-item.disabled .page-link {
+    color: black; /* Color for disabled items */
+}
+
+/* Optional: Ensure the page-link has no border or background */
+.page-item .page-link {
+    border: 0;
+    background: transparent;
+}
+
+
+.content-wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+}
+
+
+/* add product */
+
+.upload-box {
+    border: 1px dashed black;
+    border-radius: 5px;
+    cursor: pointer;
+    position: relative;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.big-box {
+    width: 320px;
+    height: 320px;
+}
+.small-box {
+    width: 100px;
+    height: 100px;
+}
+.file-input {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    opacity: 0;
+    cursor: pointer;
+}
+.upload-box img {
+    max-width: 100%;
+    max-height: 100%;
+    object-fit: contain;
+}
+.close-btn {
+    position: absolute;
+    background-color: transparent;
+    color: black;
+    transform: translate(-50%, -50%);
+    border: none;
+    height: 30px;
+    width: 30px;
+    border-radius: 50%;
+    font-size: 60px;
+    line-height: 1;
+    cursor: pointer;
+    display: none;
+   
+}
+
+.btn-small{
+    height: 15px;
+    width: 15px;
+    font-size: 30px;
+    
+
+}
